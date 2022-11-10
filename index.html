@@ -9,6 +9,8 @@
 <body>
     <h1 id="anything">JavaScript Course</h1>
 
+    <button onclick="window.print()">Print this page</button>
+
     <button onclick="document.getElementById('image').src = 'assets/pic_bulbon.gif'">Turn light on</button>
     
     <img src="assets/pic_bulboff.gif" alt="" id="image">
@@ -17,13 +19,19 @@
 
 
    <script>
-    // document.getElementById("anything").innerHTML = "Awesome to AQskill.com";
+    document.getElementById("anything").innerHTML = 15 + 6;
 
     document.getElementById("anything").style.fontSize = "55px";
     //change color
     document.getElementById("anything").style.color = "red";
     //hide element
     document.getElementById("anything").style.display = "block";
+
+    document.write("<br><br>Hello World!");
+
+    window.alert("Hey!, how are you doing?");
+
+    console.log("Am working!");
    </script>
 </body>
 </html>
